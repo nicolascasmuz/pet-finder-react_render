@@ -31,7 +31,7 @@ import { getSHA256ofString } from "./lib/sha256";
 import { missingPetsIndex, profilesIndex } from "./lib/algolia";
 import { resend } from "./lib/resend";
 
-const port = process.env.PORT || 3000;
+const port = process.env.REACT_APP_PORT || 3000;
 const app = express();
 
 app.use(cors());
