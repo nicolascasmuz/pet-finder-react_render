@@ -1,0 +1,11 @@
+.button {
+  border-radius: 8px;
+  color: #fafafa;
+  font-family: Poppins Medium;
+  font-size: 20px;
+  border: none;
+  box-shadow: 2px 2px 2px #b2bec3;
+  min-width: 315px;
+  min-height: 50px;
+  margin: 0;
+}

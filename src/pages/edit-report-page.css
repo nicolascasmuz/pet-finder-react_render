@@ -1,0 +1,101 @@
+.general-container {
+  display: grid;
+  justify-items: center;
+  padding: 0 15px;
+}
+deleted-pet-comp {
+  display: none;
+  position: fixed;
+  top: 35%;
+}
+.edit-report-main-title {
+  font-family: Poppins Semi Bold;
+  font-size: 35px;
+  color: #141414;
+  text-align: center;
+  line-height: 40px;
+  margin: 15px;
+}
+.paragraph-01 {
+  font-family: Poppins Light;
+  font-size: 16px;
+  color: #141414;
+  text-align: center;
+  width: 300px;
+  margin: 0;
+}
+.edit-report-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+.add-pet-pic {
+  border-style: dotted;
+  border-width: 3px;
+  border-radius: 8px;
+  width: 315px;
+}
+.map-container {
+  position: relative;
+  margin-top: 25px;
+}
+.map-container .pin-map {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.map {
+  width: 310px;
+  height: 190px;
+}
+.pin-map {
+  height: 100px;
+}
+.mapboxgl-ctrl {
+  display: none;
+}
+.details-label {
+  font-family: Poppins Extra Light;
+  font-size: 20px;
+  margin: 0;
+}
+.details-input {
+  display: block;
+  width: 315px;
+  height: 150px;
+  font-family: Poppins Light;
+  font-size: 20px;
+}
+.details-required-field {
+  display: none;
+  color: #ea2027;
+  font-family: Poppins Medium;
+  width: 250px;
+  margin: 0;
+}
+.paragraph-02 {
+  font-family: Poppins Light;
+  font-size: 16px;
+  color: #141414;
+  text-align: center;
+  width: 320px;
+  margin: 0;
+}
+.button-save {
+  margin: 20px;
+}
+.button-container {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+}
+.button-found {
+  margin-top: 20px;
+}
+.button-delete {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}

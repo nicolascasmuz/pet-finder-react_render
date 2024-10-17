@@ -1,0 +1,48 @@
+.form-input__label {
+  font-family: Poppins Extra Light;
+  font-size: 20px;
+}
+.form-input__input {
+  display: block;
+  font-size: 25px;
+  box-shadow: 2px 2px 2px #b2bec3;
+  border: solid 1px #b2bec3;
+  border-radius: 3px;
+  width: 315px;
+  height: 40px;
+}
+.mismatched-pass {
+  display: none;
+  color: #ea2027;
+  font-family: Poppins Medium;
+  width: 250px;
+  margin: 0;
+}
+.new-user {
+  display: none;
+  color: #ea2027;
+  font-family: Poppins Medium;
+  width: 250px;
+  margin: 0;
+}
+.wrong-data {
+  display: none;
+  color: #ea2027;
+  font-family: Poppins Medium;
+  width: 250px;
+  margin: 0;
+}
+.wrong-pass {
+  display: none;
+  color: #ea2027;
+  font-family: Poppins Medium;
+  width: 250px;
+  margin: 0;
+}
+.required-field {
+  display: none;
+  color: #ea2027;
+  font-family: Poppins Medium;
+  width: 250px;
+  margin: 0;
+}

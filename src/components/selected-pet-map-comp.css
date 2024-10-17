@@ -1,0 +1,19 @@
+.selected-pet-map__container {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+}
+.missing-pet-card-comp {
+  position: fixed;
+  z-index: 10;
+}
+.selected-pet-map__map {
+  position: absolute;
+  z-index: -10;
+  width: 100vw;
+  height: calc(100vh - 60px);
+}
+.mapboxgl-ctrl {
+  display: none;
+}

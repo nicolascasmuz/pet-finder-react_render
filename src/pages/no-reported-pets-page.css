@@ -1,0 +1,26 @@
+.general-container {
+  display: grid;
+  justify-items: center;
+  padding: 0 15px;
+}
+.main-title {
+  font-family: Poppins Semi Bold;
+  font-size: 35px;
+  color: #141414;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 45px;
+}
+.paragraph {
+  font-family: Poppins Light;
+  font-size: 16px;
+  color: #141414;
+  text-align: center;
+  margin: 0;
+}
+.no-reported-pets-picture {
+  margin-top: 45px;
+}
+.button-report {
+  margin-top: 55px;
+}

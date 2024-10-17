@@ -1,0 +1,44 @@
+.general-container {
+  display: grid;
+  justify-items: center;
+  padding: 0 15px;
+}
+
+.home-main-title {
+  font-family: Poppins Semi Bold;
+  font-size: 35px;
+  color: #141414;
+  text-align: left;
+  line-height: 40px;
+  margin: 40px 15px;
+}
+
+.button-02 {
+  margin-top: 10px;
+}
+
+.button-03 {
+  margin-top: 10px;
+}
+
+.map-container {
+  position: relative;
+  margin-top: 25px;
+}
+
+.map-container .pin-map {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.small-map {
+  width: 310px;
+  height: 190px;
+  box-shadow: 3px 3px 3px #b2bec3;
+}
+
+.pin-map {
+  height: 100px;
+}

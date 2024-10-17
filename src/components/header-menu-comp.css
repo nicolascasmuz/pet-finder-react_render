@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #26302e;
+  min-width: 200px;
+  height: 60px;
+  border-radius: 0 0 10px 10px;
+  position: sticky;
+  z-index: 20;
+}
+.header__logo {
+  height: 40px;
+  margin-left: 15px;
+}
+.header__menu-label {
+  cursor: pointer;
+}
+.header__pp-burger-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.header__profile-pic-menu {
+  height: 30px;
+  border-radius: 4px;
+}
+.header__menu-img {
+  height: 25px;
+  filter: invert(95%);
+  margin-right: 15px;
+}
+.header__menu-lista {
+  position: fixed;
+  width: 100%;
+  height: 0vh;
+  top: 50px;
+  background-color: #26302e;
+  opacity: 95%;
+  text-align: center;
+  transition: all 0.5s;
+  padding: 0;
+}
+.header__menu-lista li {
+  list-style: none;
+  display: none;
+  line-height: 30px;
+  margin: 50px 0;
+  transition: all 0.5s;
+}
+.header__menu-lista li a {
+  color: #fafafa;
+}
+#check {
+  display: none;
+}
+#check:checked ~ .header__menu-lista {
+  height: 100vh;
+}
+#check:checked ~ .header__menu-lista li {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.header__option,
+.header__option-log-out {
+  color: #fafafa;
+  text-decoration: none;
+  font-family: Poppins Medium;
+  font-size: 24px;
+  font-weight: 500;
+}

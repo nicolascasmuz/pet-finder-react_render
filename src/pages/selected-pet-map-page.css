@@ -1,0 +1,5 @@
+.selected-pet-map-page__general-container {
+  display: grid;
+  justify-items: center;
+  padding: 0;
+}

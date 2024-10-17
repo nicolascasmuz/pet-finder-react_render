@@ -1,0 +1,34 @@
+.general-container {
+  display: grid;
+  justify-items: center;
+  padding: 0 15px;
+}
+
+.main-page-picture {
+  height: 200px;
+  margin-top: 25px;
+}
+
+.app-name {
+  font-family: Poppins Semi Bold;
+  font-size: 35px;
+  color: #ff4654;
+  text-align: center;
+  margin: 15px;
+}
+
+.paragraph {
+  font-family: Poppins Light;
+  font-size: 25px;
+  color: #141414;
+  text-align: center;
+  margin: 0;
+}
+
+.button-ingresar {
+  margin-top: 25px;
+}
+
+.button-registrarse {
+  margin-top: 10px;
+}
