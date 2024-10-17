@@ -7,5 +7,5 @@
     "moduleResolution": "node",
     "jsx": "react"
   },
-  "include": ["./backend/**/*.ts"]
+  "include": ["./src/**/*.tsx", "custom.d.ts"]
 }

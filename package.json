@@ -1,13 +1,12 @@
 {
-  "name": "pet-finder-react_render",
+  "name": "pet-finder-react_2.0",
   "version": "1.0.0",
   "main": "index.tsx",
   "scripts": {
     "dev:front": "cross-env NODE_ENV=development webpack",
     "dev:back": "ts-node ./backend/dev.ts",
-    "build:back": "tsc -p ./tsconfig.json",
-    "build": "cross-env NODE_ENV=production webpack && npm run build:back",
-    "start": "ts-node ./backend/index.ts",
+    "build": "cross-env NODE_ENV=production webpack",
+    "start": "live-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -41,7 +40,6 @@
     "resend": "^1.0.0",
     "sequelize": "^6.32.1",
     "svgo": "^3.0.2",
-    "ts-node": "^10.9.2",
     "typescript": "^5.3.0-dev.20230908"
   },
   "devDependencies": {
