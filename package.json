@@ -1,6 +1,5 @@
 {
   "name": "pet-finder-react_render",
-  "type": "commonjs",
   "version": "1.0.0",
   "main": "index.tsx",
   "scripts": {
