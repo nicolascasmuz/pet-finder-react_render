@@ -1,4 +1,4 @@
-var API_BASE_URL: any = "http://localhost:3000";
+var API_BASE_URL: any = "";
 
 if (process.env.REACT_APP_ENV == "development") {
   API_BASE_URL = "http://localhost:3000";
