@@ -259,10 +259,10 @@ app.post("/send-mail", async (req, res) => {
   }
 });
 
-/* app.use(express.static(path.join(__dirname, "../dist")));
+app.use(express.static(path.join(__dirname, "../build")));
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../dist/index.html"));
-}); */
+  res.sendFile(path.join(__dirname, "../build/index.html"));
+});
 
 app.listen(port, console.log(`initialized on http://localhost:${port}`));
