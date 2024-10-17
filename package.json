@@ -1,12 +1,12 @@
 {
-  "name": "pet-finder-react_2.0",
+  "name": "pet-finder-react_render",
   "version": "1.0.0",
   "main": "index.tsx",
   "scripts": {
     "dev:front": "cross-env NODE_ENV=development webpack",
     "dev:back": "ts-node ./backend/dev.ts",
     "build": "cross-env NODE_ENV=production webpack",
-    "start": "live-server",
+    "start": "node ./backend/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
