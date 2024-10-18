@@ -6,7 +6,7 @@
     "dev:front": "cross-env NODE_ENV=development webpack",
     "dev:back": "ts-node ./backend/dev.ts",
     "build": "cross-env NODE_ENV=production webpack",
-    "start": "node index.html",
+    "start": "live-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
