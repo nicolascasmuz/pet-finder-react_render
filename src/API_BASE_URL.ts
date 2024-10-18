@@ -1,4 +1,4 @@
-var API_BASE_URL: any = "https://pet-finder-react-render.onrender.com";
+var API_BASE_URL: any = "https://pet-finder-react-backend.onrender.com";
 
 /* if (process.env.REACT_APP_ENV == "development") {
   API_BASE_URL = "http://localhost:3000";
