@@ -31,7 +31,7 @@ import { getSHA256ofString } from "./lib/sha256";
 import { missingPetsIndex, profilesIndex } from "./lib/algolia";
 import { resend } from "./lib/resend";
 
-const port = process.env.REACT_APP_PORT || 3000;
+const port = process.env.PORT || 3000;
 const app = express();
 
 app.use(cors());
@@ -240,8 +240,14 @@ app.get("/pets-near-to", async (req, res) => {
 
 // ENVÍA INFO POR MAIL
 app.post("/send-mail", async (req, res) => {
-  const { myEmail, myName, ownerEmail, ownerName, missingPetName, info } =
-    req.body;
+  const {
+    myEmail,
+    myName,
+    ownerEmail,
+    ownerName,
+    missingPetName,
+    info,
+  } = req.body;
 
   const msg = {
     from: "onboarding@resend.dev",
@@ -259,10 +265,10 @@ app.post("/send-mail", async (req, res) => {
   }
 });
 
-/* app.use(express.static(path.join(__dirname, "../dist")));
+app.use(express.static(path.join(__dirname, "../dist")));
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../dist/index.html"));
-}); */
+  res.sendFile(path.join(__dirname, "../dist/bundle.js"));
+});
 
 app.listen(port, console.log(`initialized on http://localhost:${port}`));
